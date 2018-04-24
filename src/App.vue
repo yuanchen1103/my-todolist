@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Nav/>
-    <div class="container">
+    <Nav class="fixed-top"/>
+    <div class="container" style="margin-top: 70px;">
       <StatusBar v-bind:todos="todos"/>
       <AddTodo v-on:add-todo="addTodo"/>
       <TodoList v-bind:todos="todos"/>
@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     addTodo(newTodo) {
-      this.todos.push(newTodo);
+      this.todos.unshift(newTodo);
     },
   },
 };
