@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <Nav class="fixed-top"/>
-    <div class="container" style="margin-top: 70px;">
-      <StatusBar v-bind:todos="todos"/>
+    <Nav class="fixed-top" v-bind:todos="todos"/>
+    <div class="container" style="margin-top: 90px;">
       <AddTodo v-on:add-todo="addTodo"/>
       <TodoList v-bind:todos="todos"/>
     </div>
@@ -12,7 +11,6 @@
 <script>
 import TodoList from './components/TodoList';
 import Nav from './components/Nav';
-import StatusBar from './components/StatusBar';
 import AddTodo from './components/AddTodo';
 
 export default {
@@ -20,7 +18,6 @@ export default {
   components: {
     TodoList,
     Nav,
-    StatusBar,
     AddTodo,
   },
   data() {
