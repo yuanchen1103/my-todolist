@@ -4,8 +4,8 @@
       <div class="card-header d-flex justify-content-between">
         <p class="mb-0">{{todo.title}}</p>
         <small class="d-flex align-items-center">
-          <i class="far fa-edit mr-2" v-if="!todo.done" v-on:click="edit"></i>
-          <i class="far fa-trash-alt" v-on:click="deleteTodo(todo)"></i>
+          <i class="far fa-edit mr-2 cursor-pointer " v-if="!todo.done" v-on:click="edit"></i>
+          <i class="far fa-trash-alt cursor-pointer " v-on:click="deleteTodo(todo)"></i>
         </small>
       </div>
       <div class="card-body">
@@ -71,4 +71,7 @@ export default {
 </script>
 
 <style>
+  .cursor-pointer {
+    cursor: pointer;
+  }
 </style>

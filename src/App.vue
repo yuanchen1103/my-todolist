@@ -5,6 +5,12 @@
       <AddTodo v-on:add-todo="addTodo"/>
       <TodoList v-bind:todos="todos"/>
     </div>
+    <back-to-top bottom="50px" right="20px" visibleOffset="100">
+      <button type="button" class="btn btn-info btn-to-top btn-sm">
+        <i class="fa fa-chevron-up"></i>
+        Top
+      </button>
+    </back-to-top>
   </div>
 </template>
 
