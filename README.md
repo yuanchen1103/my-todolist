@@ -1,6 +1,10 @@
-# todo-app
+# My Todolist
 
-> A Vue.js project
+> A Vue.js project made by Yu-An
+
+## Demo Link
+[App Demo](https://yuanchen1103.github.io/my-todolist/)
+
 
 ## Build Setup
 
