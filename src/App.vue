@@ -33,7 +33,7 @@ export default {
     return {
       todos: [{
         title: 'Career',
-        content: 'Tech Intern/LINE',
+        content: 'Tech Fresh/LINE',
         done: false,
       },
       {
