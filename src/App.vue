@@ -29,28 +29,43 @@ export default {
   data() {
     return {
       todos: [{
-        title: 'Todo A',
-        content: 'This is Todo A',
+        title: 'Career',
+        content: 'Tech Intern/LINE',
         done: false,
       },
       {
-        title: 'Todo B',
-        content: 'This is Todo B',
+        title: 'Career',
+        content: 'Front-end Intern/Fitz',
         done: true,
       },
       {
-        title: 'Todo C',
-        content: 'This is Todo C',
+        title: 'Career',
+        content: 'UI/UX Intern/FunNow',
+        done: true,
+      },
+      {
+        title: 'My Skill',
+        content: 'Back-end Development',
         done: false,
       },
       {
-        title: 'Todo D',
-        content: 'This is Todo D',
-        done: false,
+        title: 'My Skill',
+        content: 'Front-end Development',
+        done: true,
       },
       {
-        title: 'Todo E',
-        content: 'This is Todo E',
+        title: 'My Skill',
+        content: 'Motion Graphic',
+        done: true,
+      },
+      {
+        title: 'My Skill',
+        content: 'UI/UX Design',
+        done: true,
+      },
+      {
+        title: 'My Skill',
+        content: 'Graphic Design',
         done: true,
       },
       ],
