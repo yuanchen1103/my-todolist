@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav class="fixed-top" v-bind:todos="todos"/>
-    <div class="container" style="margin-top: 90px;">
+    <div class="container" style="margin-top: 100px;">
       <AddTodo class="mb-3" v-on:add-todo="addTodo"/>
       <Sort class="align-self-center"/>
       <TodoList v-bind:todos="todos"/>
