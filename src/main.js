@@ -9,6 +9,9 @@ Vue.config.productionTip = false;
 
 
 /* eslint-disable no-new */
+// eslint-disable-next-line
+export const bus = new Vue();
+
 new Vue({
   el: '#app',
   components: { App },

@@ -2,7 +2,8 @@
   <div id="app">
     <Nav class="fixed-top" v-bind:todos="todos"/>
     <div class="container" style="margin-top: 90px;">
-      <AddTodo v-on:add-todo="addTodo"/>
+      <AddTodo class="mb-3" v-on:add-todo="addTodo"/>
+      <Sort class="align-self-center"/>
       <TodoList v-bind:todos="todos"/>
     </div>
     <back-to-top bottom="50px" right="20px" visibleOffset="100">
@@ -18,6 +19,7 @@
 import TodoList from './components/TodoList';
 import Nav from './components/Nav';
 import AddTodo from './components/AddTodo';
+import Sort from './components/Sort';
 
 export default {
   name: 'App',
@@ -25,6 +27,7 @@ export default {
     TodoList,
     Nav,
     AddTodo,
+    Sort,
   },
   data() {
     return {
